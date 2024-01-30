@@ -1,0 +1,19 @@
+{
+  "name": "weather by osman",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "simpul wep side disply the weather caes in the 24hour of day",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*.html"],
+      "js": ["scipt.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "weather extension chrom.html",
+    "default_icon": "./img/icon.png",
+      "default_title": "weather by osman"
+  }
+}
+
+       
