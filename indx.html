@@ -1,107 +1,177 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>reviw</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script type="text/javascript" src="scipt.js"></script>
-</head>
-<body>
 
-<div class="loop cubes">
-    <div class="item cubes"></div>
-    <div class="item cubes"></div>
-    <div class="item cubes"></div>
-    <div class="item cubes"></div>
-    <div class="item cubes"></div>
-    <div class="item cubes"></div>
-   
+  <head>
+    <meta charset="utf-8">
+    <title>weather</title>
+    <link rel="stylesheet" type="text/css" href="css/styleofmainpage.css">
+    <script type="text/javascript" src="scipt.js"></script>
+  </head>
 
-</div>
+  <body>
+    <!--=========================================================================================================================-->
+    <nav>
 
+      <div class="menu">
+        <br><br>
+        <img src="img/UpgradeReport_Success.png">
+        <label>------&#128540the best loction&#128541</label>
+        &#128520&#128520&#128520&#128520
+        <img src="img/UpgradeReport_Information.png">
+        <label id="locationName">الولايه الشماليه1ه</label>
+        <hr>
+        <img src="img/UpgradeReport_Warning.png">
+        <label><a href="#">have aproplem</a></label>
+        <input type="text" name="conent">
 
-<div class="cardm">
-  <div class="card123">
-      <image width="100" height="100" src="img/sun.png"></image>
-   
-    <div class="main">17 °C</div>
-    <div class="mainsub">Dunmore, Ireland</div>
-
-  </div>
-
-  <div class="card2">
-    <div class="upper">
-      <div class="humidity">
-        <div class="humiditytext">Humidity<br>30%</div>
-         <img src="img/water-drop.gif"  y="0" x="0" height="30" width="30" id="image0">
-          </svg>
+        <button onclick="myFunc()">dark mode</button>
       </div>
 
-      <div class="air">
-        <div class="airtext">Wind<br>8 Km/h</div>
-           <img id="image0" width="30" height="30" x="0" y="0" src=" img/wind.png">
-        </svg>
+
+
+
+      <ul>
+        <li>
+          <img src="img/menu .png" class="imglabol">
+        </li>
+      </ul>
+      <label class="location">الولايه الشماليه </label>
+      <img src="img/location.png" class="imgofloction">
+      <input type="number" name="degre" value="16" class="degre" disabled=""><label class="degremark">°</label>
+      <img src="img/sun.gif" class="weathericon">
+      <div class="tem">
+        <label>
+          <input type="number" name="maxtemperature" value="10" class="temperature" disabled="">
+          <label class="">°</label>
+        </label>
+        <label>/</label>
+        <label>
+          <input type="number" name="minetemperature" value="25" class="temperature" disabled="">
+          <label class="">°</label>
+        </label>
+        <date>
+          <label><input type="dat" name="day" value=" الثلاثاء" disabled="" class="temperature"></label><label><input
+              type="tim" name="time" value="9;00" disabled="" class="temperature">PM</label>
+        </date>
       </div>
-    </div>
+      <!--=========================================================================================================================-->
+      <img src="img/hailstone.gif" class="weathericon2">
+      <!--=========================================================================================================================-->
+    </nav>
 
-    <div class="lower">
-      <div class="aqi">
-       <image id="image0" width="20" height="20" x="0" y="0" src="img/temperature.png">
-        </svg>
-        <div class="aqitext">low <br>10 °C</div>
+    <main>
+      <!--=========================================================================================================================-->
+      <div class="contener">
+        <input type="number" name="maxtemperature" value="14" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">1:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="13" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">2:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="12" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">3:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="11" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">4:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="11" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">5:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="11" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">6:AM<img src="img/sun.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="12" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">7:AM<img src="img/sun.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="14" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">8:AM<img src="img/sun.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="14" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">9:AM<img src="img/sun.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="16" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">10:AM<img src="img/sun.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="20" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">11:AM<img src="img/sun.png" class="supwteathericon"></span>
+        <input type="number" name="maxtemperature" value="20" class="subtemperature" disabled="">
+        <label class="subtemperature">°</label>
+        <span class="weatherday">12:AM<img src="img/sun.png" class="supwteathericon"></span>
+        <ul class="ownaitem">
+          <!--<hr class="line">-->
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+        </ul>
       </div>
-
-      <div class="realfeel">
-         <img src="img/sun.gif" id="image0" width="20" height="20" x="0" y="0">
-        </svg>
-        <div class="realfeeltext">Real Feel<br>21 °C</div>
+      <!--=========================================================================================================================-->
+      <div class="contener2">
+        <label>....درحه الحراره اليوم مثل الامس اتقريبا</label>
+        <ul class="ownaitem">
+          <!--<hr class="line">-->
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+          <li class="stpes"></li>
+        </ul>
       </div>
+      <!--=========================================================================================================================-->
+      <div class="contener3">
+        <span>
+          <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
+          <input type="number" name="minetemperature" disabled="" class="subtemperature" value="13"><label>°</label>
+          <label>الامس</label>
+        </span>
+        <span>
+          <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
+          <input type="number" name="minetemperature" disabled="" class="subtemperature" value="13"><label>°</label>
+          <label>االيوم</label>
+        </span>
+        <span>
+          <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
+          <input type="number" name="minetemperature" disabled="" class="subtemperature" value="13"><label>°</label>
+          <label>الاربعاء</label>
+        </span>
+        <span>
+          <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
+          <input type="number" name="minetemperature" disabled="" class="subtemperature" value="13"><label>°</label>
+          <label>الخميس</label>
+        </span>
+        <span>
+          <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
+          <input type="number" name="minetemperature" disabled="" class="subtemperature" value="13"><label>°</label>
+          <label>الجمعه</label>
+        </span>
+        <span>
+          <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
+          <input type="number" name="minetemperature" disabled="" class="subtemperature" value="13"><label>°</label>
+          <label>الاحد</label>
+        </span>
+        <span>
+          <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
+          <input type="number" name="minetemperature" disabled="" class="subtemperature" value="13"><label>°</label>
+          <label>الاثنين </label>
+        </span>
+        <span>
+          <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
+          <input type="number" name="minetemperature" disabled="" class="subtemperature" value="13"><label>°</label>
+          <label>الثلاثاء</label>
+        </span>
 
-      <div class="pressure">
-    <img src="img/wind.gif" id="image0" width="20" height="20" x="0" y="0">
-   
-        <div class="pressuretext">Pressure<br>1012 mbar</div>
       </div>
-      <div class="card3">
-      Healthy
-      </div>
-    </div>
-  </div>
-</div>
-<div class="rating">
-  <input value="5" name="rate" id="star5" type="radio">
-  <label title="text" for="star5"></label>
-  <input value="4" name="rate" id="star4" type="radio">
-  <label title="text" for="star4"></label>
-  <input value="3" name="rate" id="star3" type="radio" checked="">
-  <label title="text" for="star3"></label>
-  <input value="2" name="rate" id="star2" type="radio">
-  <label title="text" for="star2"></label>
-  <input value="1" name="rate" id="star1" type="radio">
-  <label title="text" for="star1"></label>
-</div>
+      <!--=========================================================================================================================-->
+    </main>
+    <!--=========================================================================================================================-->
 
+  </body>
 
-  
-
-  <button onclick="myFunc()" class="buto">
-    Click here
-  </button>
-   <button onclick="myFunc()" class="buto">
-    Click here
-  </button>
-   <button onclick="myFunc()" class="buto">
-    Click here
-  </button>
-   <button onclick="myFunc()" class="buto">
-    Click here
-  </button>
-   <button onclick="myFunc()" class="buto">
-    Click here
-  </button>
-
-  <h2 id="GFG" style="color:green;"></h2>
-
-
-</body>
 </html>

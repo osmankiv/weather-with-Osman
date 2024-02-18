@@ -1,0 +1,334 @@
+body {
+	margin: 10px;
+	padding: 0;
+	background-color: rgba(200, 200, 200, 0.2);
+	
+}
+
+.testOfThe {
+	width: 10px;
+	display: inline-flex;
+	position: absolute;
+	color: rgba(19, 19, 173, 0.733);
+}
+
+
+
+nav ul li {
+	list-style-type: none;
+	position: absolute;
+	margin-left: 90%;
+
+}
+
+nav ul li :hover {
+	margin-left: 50%;
+	border-radius: 50%;
+	background-color: rgb(188, 238, 241);
+
+}
+
+.menu {
+	width: 20%;
+	height: 30em;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	background-color: rgba(211, 13, 13, 0.068);
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 10px;
+	position: absolute;
+	left: 99%;
+}
+
+.menu label+.menu img {
+	margin-top: 10px;
+}
+
+.menu:hover {
+	background-color: rgba(0, 172, 240, 1);
+	right: 50%;
+	cursor: pointer;
+	transition: 1s ease-in;
+	left: 80%;
+	z-index: +5;
+	box-shadow: inset;
+}
+
+
+
+.imglabol {
+	width: 50px;
+	height: 50px;
+	margin-left: 95%;
+	display: inline-flex;
+	position: absolute;
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+}
+
+.location {
+	font-size: 50px;
+	margin-left: 75%;
+	display: inline-flex;
+	position: absolute;
+}
+
+
+
+.imgofloction {
+	width: 50px;
+	height: 50px;
+	margin-left: 70%;
+	display: inline-flex;
+	position: relative;
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.6));
+
+}
+
+.imgofloction:hover {
+	border-radius:100px 100px 200px 200px;
+	background-color: rgb(188, 238, 241);
+
+}
+
+
+
+.degre {
+	font-size: 40px;
+	width: 60px;
+	height: 70px;
+	border-style: none;
+	margin-left: 80%;
+	background-color: rgba(221, 221, 221, 0);
+	display: inline-flex;
+	position: relative;
+}
+
+.degremark {
+	font-size: 60px;
+	width: 10px;
+	display: inline-flex;
+	position: relative;
+
+}
+
+.tem {
+	margin-left: 70%;
+	margin-top: -5px;
+	display: inline-flex;
+	position: relative;
+}
+
+.temperature {
+	font-size: 20px;
+	width: 40px;
+	height: 35px;
+	border-style: none;
+	background-color: rgba(221, 221, 221, 0);
+	display: inline-felx;
+	position: relative;
+
+}
+
+.subtemperature {
+	font-size: 18px;
+	width: 40px;
+	height: 35px;
+	border-style: none;
+	background-color: rgba(221, 221, 221, 0);
+	display: inline-felx;
+	position: absolute;
+
+}
+
+.weathericon {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: fixed;
+	background-color: rgba(221, 221, 221, 0);
+
+
+
+
+}
+
+.weathericon2 {
+	width: 120px;
+	height: 120px;
+	grid-gap: 100px;
+	border-radius: 50%;
+	display: flex;
+	position: absolute;
+	margin-top: -100px;
+
+}
+
+.contener {
+	width: 97%;
+	height: 170px;
+	margin-left: 40px;
+	margin-top: 50px;
+	text-align: center;
+	justify-content: center;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2);
+
+}
+
+.contener2 {
+	width: 97%;
+	height: 170px;
+	margin-left: 40px;
+	margin-top: 50px;
+	text-align: center;
+	justify-content: center;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.contener2 label {
+	text-align: center;
+	justify-content: center;
+	font-size: 2em;
+	margin-top: 2em;
+}
+
+.contener2 .ownaitem li:before {
+
+	content: '';
+	counter-increment: item;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	background-color: rgba(200, 200, 200, 1.0);
+
+}
+
+.contener2 .ownaitem li:nth-child(3):before {
+	background-color: gray;
+
+}
+
+.contener2 .ownaitem li:after {
+	content: none;
+
+
+
+}
+
+.contener3 {
+	width: 97%;
+	height: 400px;
+	margin-left: 40px;
+	margin-top: 50px;
+	text-align: center;
+	justify-content: center;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.contener3 .subtemperature {
+	font-size: 20px;
+	width: 45px;
+	height: 35px;
+	border-style: none;
+	display: inline-felx;
+	position: relative;
+
+}
+
+.contener3 span {
+	display: block;
+	height: 50px;
+
+	position: relative;
+}
+
+.contener3 label {
+	margin-right: 300px;
+	position: absolute;
+}
+
+
+.weatherday {
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	grid-gap: 30px;
+	background-color: rgba(245, 245, 245, 0);
+}
+
+.supwteathericon {
+	width: 50px;
+	height: 50px;
+	display: inline-flex;
+	position: relative;
+}
+
+.stpes {
+
+	width: 7.98%;
+	height: 2em;
+	margin-top: 40px;
+	list-style-type: none;
+	display: inline-flex;
+	position: relative;
+
+}
+
+.line {
+	width: 85.98%;
+	display: flex;
+	position: absolute;
+	color: blue;
+	background-color: blue;
+
+}
+
+.ownaitem {
+	counter-reset: item;
+
+
+}
+
+.ownaitem li:before {
+	content: '';
+	counter-increment: item;
+	width: 20px;
+	height: 20px;
+	border: 1px solid rgba(15, 1, 1, 0.288);
+	border-radius: 50%;
+	background-color: white;
+
+}
+
+.ownaitem li:after {
+	content: '';
+	width: 100px;
+	height: 3px;
+	position: absolute;
+	border: 1px;
+	margin-top: 8px;
+	margin-left: -80%;
+	background-color: rgba(0, 0, 0, 0.356);
+	z-index: -1;
+
+
+}
+
+
+.stpes:nth-child(1):after {
+	content: none;
+
+}

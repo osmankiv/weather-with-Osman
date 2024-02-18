@@ -2,21 +2,26 @@ body{
   margin:0;
 
 }
+h1{
+ 
+  position: relative;display: inline-flex;
+
+}
 
 .cardm {
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
-  top: 46.64%;
+  top: 66.64%;
   left: 10%;
 }
 
 .card123 {
-  position: absolute;
-  width: 250px;
+  position: relative;
+  width: 270px;
   height: 130px;
   border-radius: 25px;
-  background: whitesmoke;
+  background: #fae900e1;
   color: black;
   z-index: 2;
   transition: .4s ease-in-out;
@@ -116,7 +121,7 @@ body{
   font-size: 1.24em;
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
-  background: limegreen;
+  background: #bbb;
   transition: .4s ease-in-out;
 }
 .buto{
@@ -126,5 +131,9 @@ body{
   grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
 
 }
-
+.datavalue{
+width: 20px;
+height: 10px;
+border-style: none;
+}
 
