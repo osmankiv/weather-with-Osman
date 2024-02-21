@@ -1,6 +1,6 @@
-var mainlocation = document.getElementById('card1');  //item name
+let mainlocation = document.getElementById('card1');  //item name
 let name = "khartom";
-mainlocation.innerHTML = '<label name="location1" class="location">' + name + '</label> ';
+//mainlocation.innerHTML = '<label name="location1" class="location">' + name + '</label> ';
 let locationName = document.getElementsByClassName("loc");
 locationName.innerHTML = "location";
 let result = document.getElementById("GFG");
@@ -56,15 +56,3 @@ document.write(fotor);
 console.log("\/osman\\\n\ / al\\\n\/smane\\");
 //////////////////////////////////////////////
 
-
-/////--- space of lerean ----/////
-
-let a = "-100";
-let b = "20";
-let c = 30;
-let d = true;
-console.log(); //2000
-console.log(b - c * a); //173
-const string = "open sesame";
-const result1 = string.split("").map(word => word.length);
-console.log(result1);

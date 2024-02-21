@@ -34,15 +34,17 @@
       <ul>
         <li>
           <img src="img/menu .png" class="imglabol">
+
         </li>
+        <!--<button ondblclick=" displayWeather()">display the weather</button>-->
       </ul>
-      <div  id="card1">
-      <label name="location1" class="location">الولايه الشماليه </label>
+      <div>
+        <label name="location1" class="location" id="card1">Allow location access ☹</label>
       </div>
       <img src="img/location.png" class="imgofloction">
       <script></script>
       <input type="number" name="degre" value="16" class="degre" disabled=""><label class="degremark">°</label>
-      <img src="img/sun.gif" class="weathericon">
+      <img src="img/icons/01d.svg" class="weathericon">
       <div class="tem">
         <label>
           <input type="number" name="maxtemperature" value="10" class="temperature" disabled="">
@@ -68,22 +70,22 @@
       <div class="contener">
         <input type="number" name="maxtemperature" value="14" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
-        <span class="weatherday">1:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <span class="weatherday">1:AM<img src="img/icons/01n.svg" class="supwteathericon"></span>
         <input type="number" name="maxtemperature" value="13" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
-        <span class="weatherday">2:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <span class="weatherday">2:AM<img src="img/icons/01n.svg" class="supwteathericon"></span>
         <input type="number" name="maxtemperature" value="12" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
-        <span class="weatherday">3:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <span class="weatherday">3:AM<img src="img/icons/01n.svg" class="supwteathericon"></span>
         <input type="number" name="maxtemperature" value="11" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
-        <span class="weatherday">4:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <span class="weatherday">4:AM<img src="img/icons/01n.svg" class="supwteathericon"></span>
         <input type="number" name="maxtemperature" value="11" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
-        <span class="weatherday">5:AM<img src="img/sky.png" class="supwteathericon"></span>
+        <span class="weatherday">5:AM<img src="img/icons/02n.svg" class="supwteathericon"></span>
         <input type="number" name="maxtemperature" value="11" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
-        <span class="weatherday">6:AM<img src="img/sun.png" class="supwteathericon"></span>
+        <span class="weatherday">6:AM<img src="img/icons/02n.svg" class="supwteathericon"></span>
         <input type="number" name="maxtemperature" value="12" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
         <span class="weatherday">7:AM<img src="img/sun.png" class="supwteathericon"></span>
@@ -181,6 +183,7 @@
       </p>
     </footer>
     <script type="text/javascript" src="scipt.js"></script>
+    <script type="text/javascript" src="getLoctionAndAPI.js"></script>
   </body>
 
 </html>

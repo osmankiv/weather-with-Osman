@@ -1,6 +1,7 @@
 body {
 	margin: 10px;
 	padding: 0;
+	font-weight: bold;
 	background-color: rgba(200, 200, 200, 0.2);
 	overflow-x: hidden;
 	/*filter: blur(10px);*/
@@ -72,10 +73,14 @@ nav ul li :hover {
 }
 
 .location {
-	font-size: 50px;
+	font-size: 20px;
+	font-family: sans-serif;
+	width: 10%;
+	color: unset;
 	margin-left: 75%;
 	display: inline-flex;
 	position: absolute;
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.6))
 }
 
 
@@ -101,7 +106,8 @@ nav ul li :hover {
 	width: 60px;
 	height: 70px;
 	border-style: none;
-	margin-left: 80%;
+	margin-left: 75%;
+	margin-top: 2%;
 	background-color: rgba(221, 221, 221, 0);
 	display: inline-flex;
 	position: relative
@@ -147,6 +153,9 @@ nav ul li :hover {
 .weathericon {
 	width: 120px;
 	height: 120px;
+	position: absolute;
+	margin: auto;
+	margin-left: 5%;
 	border-radius: 50%;
 	background: fixed;
 	background-color: rgba(221, 221, 221, 0);
