@@ -31,6 +31,25 @@ nav ul li :hover {
 
 }
 
+.btn {
+	font-size: 3rem;
+	cursor: pointer;
+}
+
+.btn::before {
+	content: '🖤';
+}
+
+body.dark {
+	color: #a8acb0;
+	background: #1b1f23;
+	transition: all 0.5s ease;
+}
+
+body.dark .btn::before {
+	content: '💡';
+}
+
 .menu {
 	width: 20%;
 	height: 30em;
