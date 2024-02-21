@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>weather</title>
     <link rel="stylesheet" type="text/css" href="css/styleofmainpage.css">
-    <script type="text/javascript" src="scipt.js"></script>
+
+    <link rel="icon" type="img/x-icon" href="img/sun.png">
   </head>
 
   <body>
@@ -18,7 +19,7 @@
         <label>------&#128540the best loction&#128541</label>
         &#128520&#128520&#128520&#128520
         <img src="img/UpgradeReport_Information.png">
-        <label id="locationName">الولايه الشماليه1ه</label>
+        <label class="loc">الولايه الشماليه </label>
         <hr>
         <img src="img/UpgradeReport_Warning.png">
         <label><a href="#">have aproplem</a></label>
@@ -35,8 +36,11 @@
           <img src="img/menu .png" class="imglabol">
         </li>
       </ul>
-      <label class="location">الولايه الشماليه </label>
+      <div  id="card1">
+      <label name="location1" class="location">الولايه الشماليه </label>
+      </div>
       <img src="img/location.png" class="imgofloction">
+      <script></script>
       <input type="number" name="degre" value="16" class="degre" disabled=""><label class="degremark">°</label>
       <img src="img/sun.gif" class="weathericon">
       <div class="tem">
@@ -124,7 +128,7 @@
           <li class="stpes"></li>
         </ul>
       </div>
-      <!--=========================================================================================================================-->
+      <!--========================================================================================================================-->
       <div class="contener3">
         <span>
           <input type="number" name="maxtemperature" disabled="" class="subtemperature" value="26"><label>°</label>
@@ -171,7 +175,12 @@
       <!--=========================================================================================================================-->
     </main>
     <!--=========================================================================================================================-->
-
+    <footer>
+      <p class="copyright txt-c pt-15">
+        Made With <i></i> By osman alsmani © 2024
+      </p>
+    </footer>
+    <script type="text/javascript" src="scipt.js"></script>
   </body>
 
 </html>

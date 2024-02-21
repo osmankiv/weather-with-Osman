@@ -2,14 +2,16 @@ body {
 	margin: 10px;
 	padding: 0;
 	background-color: rgba(200, 200, 200, 0.2);
-	
+	overflow-x: hidden;
+	/*filter: blur(10px);*/
 }
 
 .testOfThe {
 	width: 10px;
 	display: inline-flex;
 	position: absolute;
-	color: rgba(19, 19, 173, 0.733);
+	color: rgba(13, 255, 255, 0.432);
+	display: unset;
 }
 
 
@@ -39,7 +41,8 @@ nav ul li :hover {
 	border-top-left-radius: 100px;
 	border-top-right-radius: 10px;
 	position: absolute;
-	left: 99%;
+	filter: blur(20px);
+	left: 96%;
 }
 
 .menu label+.menu img {
@@ -48,6 +51,7 @@ nav ul li :hover {
 
 .menu:hover {
 	background-color: rgba(0, 172, 240, 1);
+	filter: blur(0px);
 	right: 50%;
 	cursor: pointer;
 	transition: 1s ease-in;
@@ -82,14 +86,12 @@ nav ul li :hover {
 	margin-left: 70%;
 	display: inline-flex;
 	position: relative;
-	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.6));
-
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.6))
 }
 
 .imgofloction:hover {
-	border-radius:100px 100px 200px 200px;
-	background-color: rgb(188, 238, 241);
-
+	border-radius: 100px 100px 200px 200px;
+	background-color: rgb(188, 238, 241)
 }
 
 
@@ -102,7 +104,7 @@ nav ul li :hover {
 	margin-left: 80%;
 	background-color: rgba(221, 221, 221, 0);
 	display: inline-flex;
-	position: relative;
+	position: relative
 }
 
 .degremark {
@@ -162,6 +164,7 @@ nav ul li :hover {
 	display: flex;
 	position: absolute;
 	margin-top: -100px;
+
 
 }
 
@@ -330,5 +333,14 @@ nav ul li :hover {
 
 .stpes:nth-child(1):after {
 	content: none;
+
+}
+
+.copyright {
+	position: absolute;
+	text-align: center;
+	margin-left: 40%;
+	font-size: large;
+	filter: blur(1px);
 
 }
