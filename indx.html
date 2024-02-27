@@ -16,14 +16,15 @@
       <div class="menu">
         <br><br>
         <img src="img/UpgradeReport_Success.png">
-        <label>------&#128540the best loction&#128541</label>
-        &#128520&#128520&#128520&#128520
+        <label>&#128520&#128540the defolte loction&#128541&#128520</label>
+
         <img src="img/UpgradeReport_Information.png">
-        <label class="loc">الولايه الشماليه </label>
+        <label class="loc " id="deflocation">الولايه الشماليه </label>
         <hr>
         <img src="img/UpgradeReport_Warning.png">
-        <label><a href="#">have aproplem</a></label>
+        <form><label><a href="#">have aproplem?</a></label></form>
         <input type="text" name="conent">
+        <button type="submit" onclick="">send</button>
 
         <div class="btn"></div>
       </div>
@@ -36,24 +37,24 @@
           <img src="img/menu .png" class="imglabol">
 
         </li>
-        <!--<button ondblclick=" displayWeather()">display the weather</button>-->
       </ul>
       <div>
         <label name="location1" class="location" id="card1">Allow location access ☹</label>
       </div>
       <img src="img/location.png" class="imgofloction">
       <script></script>
-      <input type="number" name="degre" value="16" class="degre" disabled=""><label class="degremark">°</label>
+      <input type="number" name="degre" value="0" class="degre" id="degre" disabled=""><label class="degremark">°
+      </label>
       <img src="img/icons/01d.svg" class="weathericon">
       <div class="tem">
         <label>
-          <input type="number" name="maxtemperature" value="10" class="temperature" disabled="">
-          <label class="">°</label>
+          <input type="number" name="minetemperature" value="0" id="minetemperature" class="temperature" disabled="">
+          <label class="subtemperature">°</label>
         </label>
-        <label>/</label>
+        <label class="slah">/</label>
         <label>
-          <input type="number" name="minetemperature" value="25" class="temperature" disabled="">
-          <label class="">°</label>
+          <input type="number" name="maxtemperature" value="0" id="maxtemperature" class="temperature" disabled="">
+          <label class="subtemperature">°</label>
         </label>
         <date>
           <label><input type="dat" name="day" value=" الثلاثاء" disabled="" class="temperature"></label><label><input
@@ -70,7 +71,7 @@
       <div class="contener">
         <input type="number" name="maxtemperature" value="14" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
-        <span class="weatherday">1:AM<img src="img/icons/01n.svg" class="supwteathericon"></span>
+        <span class="weatherday">1:00AM<img src="img/icons/01n.svg" class="supwteathericon"></span>
         <input type="number" name="maxtemperature" value="13" class="subtemperature" disabled="">
         <label class="subtemperature">°</label>
         <span class="weatherday">2:AM<img src="img/icons/01n.svg" class="supwteathericon"></span>
@@ -123,11 +124,13 @@
       <!--=========================================================================================================================-->
       <div class="contener2">
         <label>....درحه الحراره اليوم مثل الامس اتقريبا</label>
+        <label hidden>....درحه الحراره اليوم مثل الامس اتقريبا</label>
+        <label hidden>....درحه الحراره اليوم مثل الامس اتقريبا</label>
         <ul class="ownaitem">
           <!--<hr class="line">-->
-          <li class="stpes"></li>
-          <li class="stpes"></li>
-          <li class="stpes"></li>
+          <li class="stpes"><button class="but-1">.</button></li>
+          <li class="stpes"><button class="but-2">.</button></li>
+          <li class="stpes"><button class="but-3">.</button></li>
         </ul>
       </div>
       <!--========================================================================================================================-->
@@ -180,7 +183,7 @@
     <footer>
       <p class="copyright txt-c pt-15">
         Made With <i></i> By osman alsmani © 2024
-      </p>
+      </p>>
     </footer>
     <script type="text/javascript" src="js/scipt.js"></script>
     <script type="text/javascript" src="js/getLoctionAndAPI.js"></script>

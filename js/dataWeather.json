@@ -1,0 +1,53 @@
+{
+    "a":{
+    "conter ": " sudan",
+    "city": " khrotme",
+    "termo": 24,
+    "minetemperature": 21,
+    "maxtemperature": 35
+    },
+    "b":{
+        "coord": {
+            "lon": 37.2048,
+            "lat": 19.6182
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 298.85,
+            "feels_like": 298.73,
+            "temp_min": 298.85,
+            "temp_max": 298.85,
+            "pressure": 1010,
+            "humidity": 48,
+            "sea_level": 1010,
+            "grnd_level": 1009
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5.59,
+            "deg": 29,
+            "gust": 5.61
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1708955051,
+        "sys": {
+            "country": "SD",
+            "sunrise": 1708919622,
+            "sunset": 1708961704
+        },
+        "timezone": 7200,
+        "id": 377039,
+        "name": "Port Sudan",
+        "cod": 200
+    }
+}

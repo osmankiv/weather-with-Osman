@@ -1,6 +1,4 @@
-let mainlocation = document.getElementById('card1');  //item name
-let name = "khartom";
-//mainlocation.innerHTML = '<label name="location1" class="location">' + name + '</label> ';
+
 let locationName = document.getElementsByClassName("loc");
 locationName.innerHTML = "location";
 //DARK MOODE
@@ -52,3 +50,29 @@ document.write(fotor);
 console.log("\/osman\\\n\ / al\\\n\/smane\\");
 //////////////////////////////////////////////
 
+
+// async function getFile() {
+//   let x = await fetch(`http://localhost/dataOfWeatherApp`, {
+//     type: "json",method: "GET", mode: "no-cors", body: JSON.stringify()
+//   });
+//   let y = await x.json();
+//   console.log(x);
+// }
+
+//  fetch(`http://localhost/dataOfWeatherApp/dataWeather.json`, {
+//    type: "json", method: "GET", mode: "no-cors", body: JSON.stringify()
+//  }).then((result) => {
+//     result = `{"conter ":" sudan","city" :" khrotme"}`;
+//    let data = JSON.parse(result);
+//    console.log(data);
+//    return data;
+//  });
+
+// let myjson = `{"conter ":" sudan","city" :" khrotme"}`;
+// let myjs = JSON.parse(myjson);
+// console.log(myjson);
+// console.log(myjs);
+// let jslist = { name: "osman", age: 13 };
+// let jsonlist = JSON.stringify(jslist);
+// console.log(jslist);
+// console.log(jsonlist);

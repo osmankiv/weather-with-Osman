@@ -3,8 +3,8 @@ body {
 	padding: 0;
 	font-weight: bold;
 	background-color: rgba(200, 200, 200, 0.2);
-	overflow-x: hidden;
-	/*filter: blur(10px);*/
+	overflow-x: hidden
+		/*filter: blur(10px);*/
 }
 
 .testOfThe {
@@ -12,7 +12,7 @@ body {
 	display: inline-flex;
 	position: absolute;
 	color: rgba(13, 255, 255, 0.432);
-	display: unset;
+	display: unset
 }
 
 
@@ -20,24 +20,22 @@ body {
 nav ul li {
 	list-style-type: none;
 	position: absolute;
-	margin-left: 90%;
-
+	margin-left: 90%
 }
 
 nav ul li :hover {
 	margin-left: 50%;
 	border-radius: 50%;
-	background-color: rgb(188, 238, 241);
-
+	background-color: rgb(188, 238, 241)
 }
 
 .btn {
 	font-size: 3rem;
-	cursor: pointer;
+	cursor: pointer
 }
 
 .btn::before {
-	content: '🖤';
+	content: '❤'
 }
 
 body.dark {
@@ -47,7 +45,7 @@ body.dark {
 }
 
 body.dark .btn::before {
-	content: '💡';
+	content: '💡'
 }
 
 .menu {
@@ -62,11 +60,11 @@ body.dark .btn::before {
 	border-top-right-radius: 10px;
 	position: absolute;
 	filter: blur(20px);
-	left: 96%;
+	left: 96%
 }
 
 .menu label+.menu img {
-	margin-top: 10px;
+	margin-top: 10px
 }
 
 .menu:hover {
@@ -77,7 +75,7 @@ body.dark .btn::before {
 	transition: 1s ease-in;
 	left: 80%;
 	z-index: +5;
-	box-shadow: inset;
+	box-shadow: inset
 }
 
 
@@ -88,7 +86,7 @@ body.dark .btn::before {
 	margin-left: 95%;
 	display: inline-flex;
 	position: absolute;
-	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1))
 }
 
 .location {
@@ -136,15 +134,18 @@ body.dark .btn::before {
 	font-size: 60px;
 	width: 10px;
 	display: inline-flex;
-	position: relative;
+	position: relative
+}
 
+.slah {
+	color: aqua;
 }
 
 .tem {
 	margin-left: 70%;
 	margin-top: -5px;
 	display: inline-flex;
-	position: relative;
+	position: relative
 }
 
 .temperature {
@@ -154,8 +155,7 @@ body.dark .btn::before {
 	border-style: none;
 	background-color: rgba(221, 221, 221, 0);
 	display: inline-felx;
-	position: relative;
-
+	position: relative
 }
 
 .subtemperature {
@@ -165,8 +165,7 @@ body.dark .btn::before {
 	border-style: none;
 	background-color: rgba(221, 221, 221, 0);
 	display: inline-felx;
-	position: absolute;
-
+	position: absolute
 }
 
 .weathericon {
@@ -177,11 +176,7 @@ body.dark .btn::before {
 	margin-left: 5%;
 	border-radius: 50%;
 	background: fixed;
-	background-color: rgba(221, 221, 221, 0);
-
-
-
-
+	background-color: rgba(221, 221, 221, 0)
 }
 
 .weathericon2 {
@@ -191,9 +186,7 @@ body.dark .btn::before {
 	border-radius: 50%;
 	display: flex;
 	position: absolute;
-	margin-top: -100px;
-
-
+	margin-top: -100px
 }
 
 .contener {
@@ -205,8 +198,7 @@ body.dark .btn::before {
 	justify-content: center;
 	border-radius: 20px;
 	background: rgba(255, 255, 255, 0.1);
-	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2);
-
+	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2)
 }
 
 .contener2 {
@@ -218,16 +210,14 @@ body.dark .btn::before {
 	justify-content: center;
 	border-radius: 20px;
 	background: rgba(255, 255, 255, 0.1);
-	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2);
-
-
+	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2)
 }
 
 .contener2 label {
 	text-align: center;
 	justify-content: center;
 	font-size: 2em;
-	margin-top: 2em;
+	margin-top: 2em
 }
 
 .contener2 .ownaitem li:before {
@@ -238,20 +228,15 @@ body.dark .btn::before {
 	height: 20px;
 	border: 1px solid #ddd;
 	border-radius: 50%;
-	background-color: rgba(200, 200, 200, 1.0);
-
+	background-color: rgba(200, 200, 200, 1.0)
 }
 
 .contener2 .ownaitem li:nth-child(3):before {
-	background-color: gray;
-
+	background-color: gray
 }
 
 .contener2 .ownaitem li:after {
-	content: none;
-
-
-
+	content: none
 }
 
 .contener3 {
@@ -263,10 +248,7 @@ body.dark .btn::before {
 	justify-content: center;
 	border-radius: 20px;
 	background: rgba(255, 255, 255, 0.1);
-	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2);
-
-
-
+	box-shadow: 10px 10px 60px 40px rgba(0, 0, 0, 0.2)
 }
 
 .contener3 .subtemperature {
@@ -275,20 +257,18 @@ body.dark .btn::before {
 	height: 35px;
 	border-style: none;
 	display: inline-felx;
-	position: relative;
-
+	position: relative
 }
 
 .contener3 span {
 	display: block;
 	height: 50px;
-
-	position: relative;
+	position: relative
 }
 
 .contener3 label {
 	margin-right: 300px;
-	position: absolute;
+	position: absolute
 }
 
 
@@ -297,14 +277,14 @@ body.dark .btn::before {
 	width: 50px;
 	height: 50px;
 	grid-gap: 30px;
-	background-color: rgba(245, 245, 245, 0);
+	background-color: rgba(245, 245, 245, 0)
 }
 
 .supwteathericon {
 	width: 50px;
 	height: 50px;
 	display: inline-flex;
-	position: relative;
+	position: relative
 }
 
 .stpes {
@@ -314,8 +294,7 @@ body.dark .btn::before {
 	margin-top: 40px;
 	list-style-type: none;
 	display: inline-flex;
-	position: relative;
-
+	position: relative
 }
 
 .line {
@@ -323,14 +302,11 @@ body.dark .btn::before {
 	display: flex;
 	position: absolute;
 	color: blue;
-	background-color: blue;
-
+	background-color: blue
 }
 
 .ownaitem {
-	counter-reset: item;
-
-
+	counter-reset: item
 }
 
 .ownaitem li:before {
@@ -340,8 +316,7 @@ body.dark .btn::before {
 	height: 20px;
 	border: 1px solid rgba(15, 1, 1, 0.288);
 	border-radius: 50%;
-	background-color: white;
-
+	background-color: white
 }
 
 .ownaitem li:after {
@@ -353,15 +328,20 @@ body.dark .btn::before {
 	margin-top: 8px;
 	margin-left: -80%;
 	background-color: rgba(0, 0, 0, 0.356);
-	z-index: -1;
-
-
+	z-index: -1
 }
 
+.ownaitem button {
+	display: flex;
+	position: absolute;
+	border-style: none;
+	border-radius: 50%;
+	justify-content: center;
+	background-color: rgb(255, 255, 255, 0)
+}
 
 .stpes:nth-child(1):after {
-	content: none;
-
+	content: none
 }
 
 .copyright {
@@ -369,6 +349,5 @@ body.dark .btn::before {
 	text-align: center;
 	margin-left: 40%;
 	font-size: large;
-	filter: blur(1px);
-
+	filter: blur(1px)
 }
